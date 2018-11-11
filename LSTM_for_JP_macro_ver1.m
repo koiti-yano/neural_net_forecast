@@ -22,14 +22,7 @@ switch flagForProgramTest
     
     case "macroeconometrics"
         %
-        [dataAll,txt,raw] = xlsread("/Users/yano/Dropbox/program/matlab/lstm/src/jp_monthly_data_5vars_with_mbase.xlsx");
-        %[dataAll,txt,raw] = xlsread("/Users/yano/Dropbox/program/matlab/lstm/src/jp_monthly_data_5vars_with_money.xlsx");
-        % Money stock and commo
-        %[dataAll,txt,raw] = xlsread("/Users/yano/Dropbox/program/matlab/lstm/src/jp_monthly_data_4vars_with_money.xlsx");
-        % Monetary base and commo
-        %[dataAll,txt,raw] = xlsread("/Users/yano/Dropbox/program/matlab/lstm/src/jp_monthly_data_4vars_with_mbase.xlsx");
-        % Money and ex
-        %[dataAll,txt,raw] = xlsread("/Users/yano/Dropbox/program/matlab/lstm/src/jp_monthly_data_4vars_ex_money.xlsx");
+        [dataAll,txt,raw] = xlsread("./jp_monthly_data_5vars_with_mbase.xlsx");
         
         dataAll = dataAll.'; % Matlab assumes that an observation vector is a row vector
         disp(txt);
