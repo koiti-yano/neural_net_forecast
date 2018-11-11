@@ -1,4 +1,3 @@
-%% Import data and set parameters
 % MATLAB Deep Learning Toolbox is required to run this script.
 % Copyright (c)  Koiti Yano 
 % This work is supported by Komazawa university Tokubetu Kenkyu Jyosei.
@@ -6,7 +5,7 @@
 %close all;
 cd("/Users/yano/Dropbox/program/matlab/lstm/src")
 
-
+%% Import data and set parameters
 %================================================
 % Initial Setting
 %================================================
