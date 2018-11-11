@@ -1,6 +1,7 @@
 %% Import data and set parameters
 % This script is based on the URL below.
-
+% Copyright (c)  Koiti Yano 
+% This work is supported by Komazawa university Tokubetu Kenkyu Jyosei.
 %clear;
 %close all;
 cd("/Users/yano/Dropbox/program/matlab/lstm/src")
