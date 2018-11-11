@@ -1,5 +1,5 @@
 %% Import data and set parameters
-% This script is based on the URL below.
+% MATLAB Deep Learning Toolbox is required to run this script.
 % Copyright (c)  Koiti Yano 
 % This work is supported by Komazawa university Tokubetu Kenkyu Jyosei.
 %clear;
